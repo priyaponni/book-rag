@@ -1,0 +1,32 @@
+{
+  "description": "Stub eval set for book-rag. Each entry is a test query for POST /ask. Fill in expected_book_titles and notes once the ~50-book starter corpus is ingested and you know what's actually in the index.",
+  "queries": [
+    {"id": "q01", "query": "Recommend a science fiction book about time travel", "expected_book_titles": [], "notes": ""},
+    {"id": "q02", "query": "What's a good fantasy book with a strong female lead?", "expected_book_titles": [], "notes": ""},
+    {"id": "q03", "query": "I want a mystery novel set in a small town", "expected_book_titles": [], "notes": ""},
+    {"id": "q04", "query": "Suggest a history book about ancient Rome", "expected_book_titles": [], "notes": ""},
+    {"id": "q05", "query": "What's a beginner-friendly cookbook for Italian food?", "expected_book_titles": [], "notes": ""},
+    {"id": "q06", "query": "Books about artificial intelligence taking over the world", "expected_book_titles": [], "notes": ""},
+    {"id": "q07", "query": "A fantasy book involving dragons", "expected_book_titles": [], "notes": ""},
+    {"id": "q08", "query": "Detective fiction with an unreliable narrator", "expected_book_titles": [], "notes": ""},
+    {"id": "q09", "query": "A history book about World War II", "expected_book_titles": [], "notes": ""},
+    {"id": "q10", "query": "Vegetarian cooking recipes book", "expected_book_titles": [], "notes": ""},
+    {"id": "q11", "query": "Space exploration science fiction", "expected_book_titles": [], "notes": ""},
+    {"id": "q12", "query": "Epic fantasy series with political intrigue", "expected_book_titles": [], "notes": ""},
+    {"id": "q13", "query": "A cozy mystery for a rainy afternoon", "expected_book_titles": [], "notes": ""},
+    {"id": "q14", "query": "Book about the history of the Roman Empire's fall", "expected_book_titles": [], "notes": ""},
+    {"id": "q15", "query": "Baking bread cookbook", "expected_book_titles": [], "notes": ""},
+    {"id": "q16", "query": "Dystopian science fiction novel", "expected_book_titles": [], "notes": ""},
+    {"id": "q17", "query": "A fantasy book good for young adults", "expected_book_titles": [], "notes": ""},
+    {"id": "q18", "query": "A thriller involving a murder investigation", "expected_book_titles": [], "notes": ""},
+    {"id": "q19", "query": "Biography or history of a US president", "expected_book_titles": [], "notes": ""},
+    {"id": "q20", "query": "Quick weeknight dinner recipes", "expected_book_titles": [], "notes": ""},
+    {"id": "q21", "query": "Science fiction exploring first contact with aliens", "expected_book_titles": [], "notes": ""},
+    {"id": "q22", "query": "A fantasy book with a magic school setting", "expected_book_titles": [], "notes": ""},
+    {"id": "q23", "query": "A mystery novel with a female detective", "expected_book_titles": [], "notes": ""},
+    {"id": "q24", "query": "A history book about a revolution", "expected_book_titles": [], "notes": ""},
+    {"id": "q25", "query": "A dessert-focused cookbook", "expected_book_titles": [], "notes": ""},
+    {"id": "q26", "query": "What books do you have about robots?", "expected_book_titles": [], "notes": "tests graceful 'no match' behavior if none exist"},
+    {"id": "q27", "query": "Recommend something completely unrelated, like a car repair manual", "expected_book_titles": [], "notes": "should surface no confident match rather than hallucinate one"}
+  ]
+}
